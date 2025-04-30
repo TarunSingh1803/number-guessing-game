@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    width: 90%;
+}
+
+h1 {
+    color: #4a4a4a;
+    margin-bottom: 1.5rem;
+}
+
+#game-instructions {
+    margin-bottom: 2rem;
+}
+
+#number-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 1.5rem auto;
+    max-width: 400px;
+}
+
+.number-cell {
+    background: #f0f0f0;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: transform 0.2s;
+}
+
+.number-cell:hover {
+    transform: scale(1.05);
+    background: #e0e0e0;
+}
+
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin: 0.5rem;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #764ba2;
+}
+
+#controls {
+    margin-top: 1.5rem;
+}
+
+#result {
+    margin-top: 2rem;
+}
+
+#guessed-number {
+    font-size: 1.5rem;
+    color: #667eea;
+    font-weight: bold;
+}

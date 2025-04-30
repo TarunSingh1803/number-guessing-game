@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Number Guessing Game</h1>
+        <div id="game-instructions">
+            <p>Think of a number between 0 and 31</p>
+            <p>Look at each block and answer if your number is present in it.</p>
+            <button id="start-btn">Start Game</button>
+        </div>
+        <div id="game-area" style="display: none;">
+            <div id="block-display">
+                <h2>Block <span id="current-block">A</span></h2>
+                <div id="number-grid"></div>
+            </div>
+            <div id="controls">
+                <p>Is your number in this block?</p>
+                <button id="yes-btn">Yes</button>
+                <button id="no-btn">No</button>
+            </div>
+        </div>
+        <div id="result" style="display: none;">
+            <h2>Your number is: <span id="guessed-number"></span></h2>
+            <button id="play-again">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
