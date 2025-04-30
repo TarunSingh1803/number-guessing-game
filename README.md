@@ -4,10 +4,15 @@ This project is a simple number guessing game where the user thinks of a number 
 
 ---
 
+## 🚀 Live Demo  
+👉 [Click here to PLAY](https://tarunsingh1803.github.io/number-guessing-game/)
+
+---
+
 ## 🖥 Console Version (C Language)
 
-- **File:** `Game_Tarun.c`
-- **Executable:** `Game_Tarun.exe`
+- **File:** `Game_Tarun.c`  
+- **Executable:** `Game_Tarun.exe`  
 - **How it works:**
   - Displays 5 different 4x4 blocks of numbers.
   - The user answers YES/NO if their number is present in each block.
@@ -37,6 +42,3 @@ This project is a simple number guessing game where the user thinks of a number 
 4. Your number will be revealed at the end!
 
 ---
-
-## 📂 Project Structure
-
